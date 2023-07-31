@@ -5,7 +5,7 @@ import { useAccount } from "wagmi";
 export default function NFTGallery({}) {
   const [nfts, setNfts] = useState();
   const [walletOrCollectionAddress, setWalletOrCollectionAddress] =
-    useState("vitalik.eth");
+    useState("");
   const [fetchMethod, setFetchMethod] = useState("wallet");
   const [pageKey, setPageKey] = useState();
   const [spamFilter, setSpamFilter] = useState(true);
